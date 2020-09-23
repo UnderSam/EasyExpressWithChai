@@ -11,5 +11,9 @@ const products = [
       id: 3,
       name: 'Pineapple',
     },
+    {
+      id: 4,
+      name: 'test2',
+    },
  ];
  export default products;
