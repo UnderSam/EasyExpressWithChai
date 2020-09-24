@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha --require babel-register tests/*.js --exit",
     "dev": "nodemon --exec babel-node --presets babel-preset-env ./src/server.js",
-    "build": "babel src -d build"
+    "build": "babel src -d build",
+    "start": "pm2 start build/server.js"
   },
   "repository": {
     "type": "git",
