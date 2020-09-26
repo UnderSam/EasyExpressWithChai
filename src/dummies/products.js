@@ -13,7 +13,7 @@ const products = [
     },
     {
       id: 4,
-      name: 'BeforeStart',
+      name: 'Lemon',
     },
  ];
  export default products;
